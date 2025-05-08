@@ -55,10 +55,10 @@ st.set_page_config(page_title="Guía Impera Link", layout="centered")
 st.title("🎰 Guía de Juegos - Impera Link")
 st.subheader("🎯 Estrategia: Subir desde 3000 DKK al día, minimizando pérdidas")
 
-st.markdown(\"\"\"
+st.markdown("""
 Esta herramienta te ayuda a elegir los juegos más inteligentes dentro del sistema **Impera Link** de Novomatic.
 Ideal para jugadores que quieren mantener control del bankroll y maximizar oportunidades de bono o ganancia.
-\"\"\")
+""")
 
 st.markdown("## ✅ Juegos recomendados según tu estrategia")
 st.dataframe(df, use_container_width=True)
